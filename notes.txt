@@ -1,0 +1,8 @@
+This program began for Control-Tec as a program to move files quickly between directories.
+I now want this program to replace cp/mv as part of a new package as a fast-copy utility
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TODO: 
+Add multi-threading back in to the program
+add flags and nice help message for user
+--- flags should be for copy vs move distinction
+remove loop to stall completion if less than 24 files 
