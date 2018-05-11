@@ -1,0 +1,5 @@
+This program started as a program to move files between directories for a kind of chroot jail. 
+Now, It aims to be a fast, multi-threaded tool to copy and move files with no upper limit of file size and number of files
+
+That being said, I have no idea how far along this project is, but I'd like to pursue it in my free time, and I'm hoping putting it
+on GitHub will help me with that.

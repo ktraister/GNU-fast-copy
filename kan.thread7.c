@@ -238,7 +238,6 @@ char* concat( char* s1, char* s2)
 }
 
 
-
 /*******************************function to determine # of files in /jail*****************************************************************/
 int numfiles(void)
 {
