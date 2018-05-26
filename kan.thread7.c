@@ -99,7 +99,6 @@ for (i=0; i<n; i++)
         //char *out;
         //char *in;
         
-        //out = concat("/vol/qualifier/data/", filesList[i]);
         //in = concat("/jail/", filesList[i]);
         
         //more debugging statements
@@ -153,8 +152,8 @@ void copy (char *args)
      int size2;
 
      printf("\n Debugging arg to concat(): %s \n", args);
-     read = concat("/jail/", args);
-     write = concat("/vol/qualifier/data/", args);
+     read = concat("jail/", args);
+     write = concat("data/", args);
 
      //size1 = fsize(read);
      printf("\nSize1: %d", size1);
